@@ -1,5 +1,8 @@
-class Persegi(): BangunDatarParent(){
-    var sisi:Double=0.0
+package BangunDatar
+import library.fungsiInput
+
+internal class Persegi(): BangunDatarParent(){
+    private var sisi:Double=0.0
     init {
         var menu = Menu(
             "PERSEGI","Menghitung Luas Persegi",

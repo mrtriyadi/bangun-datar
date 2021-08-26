@@ -1,3 +1,4 @@
+package library
 //merupakan fungsi untuk melakukan inputan angka
 //fungsi ini juga akan memanggil fungsi validator() untuk mengecek apakah inputan telah sesuai
 //fungsi memiliki parameter dengan type data String dan akan mengembalikan type data Double

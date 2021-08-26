@@ -1,3 +1,5 @@
+package library
+
 fun validator(inputCek: String?,jumlah:Int=0):Boolean {
     var valid:Boolean
     if (inputCek?.toDoubleOrNull() == null){

@@ -1,3 +1,5 @@
+package library
+
 fun ulang(): Boolean {
     lateinit var ulang: String
     var hasil: Boolean = true

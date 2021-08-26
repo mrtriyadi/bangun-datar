@@ -1,6 +1,9 @@
-class Segitiga():BangunDatarParent(){
-    var alas:Double=0.0
-    var tinggi:Double=0.0
+package BangunDatar
+import library.fungsiInput
+
+internal class Segitiga():BangunDatarParent(){
+    private var alas:Double=0.0
+    private var tinggi:Double=0.0
     init {
         var menu = Menu(
             "SEGITIGA","Menghitung Luas Segitiga Sama Kaki",

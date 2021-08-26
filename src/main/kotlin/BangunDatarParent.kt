@@ -1,4 +1,6 @@
+package BangunDatar
+
 abstract class BangunDatarParent {
-    abstract fun hitungKeliling():Double
-    abstract fun hitungLuas():Double
+    protected abstract fun hitungKeliling():Double
+    protected abstract fun hitungLuas():Double
 }

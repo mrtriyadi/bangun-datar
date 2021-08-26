@@ -1,3 +1,6 @@
+package BangunDatar
+import library.validator
+
 class Menu(judul: String="MENU",vararg pilihanMenu: String) {
     var pilihanMenu:String?=""
     init {
@@ -7,7 +10,6 @@ class Menu(judul: String="MENU",vararg pilihanMenu: String) {
             for (i in pilihanMenu) {
                 index += 1
                 println("$index. $i")
-
             }
             print("Silahkan masukan pilihan Anda: ")
             this.pilihanMenu = readLine()
